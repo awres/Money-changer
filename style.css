@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Poppins', 'sans-serif';
+	background: linear-gradient(180deg, #787878 0%, #0711d6 100%);
+}
+.wrapper {
+	width: 800px;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #1c232d;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #1c232d;
+}
+.app-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper p {
+	margin-bottom: 50px;
+	font-size: 26px;
+	font-weight: 200;
+}
+.wrapper h1 {
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+.section-left,
+.section-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.app-body input {
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 60px;
+}
+.app-body input,
+.app-body select {
+	color: #fff;
+	border: none;
+	background: none;
+	text-align: center;
+}
+.app-body select {
+	padding: 10px 20px;
+	font-size: 36px;
+	cursor: pointer;
+}
+.app-body option {
+	color: #333;
+}
+.app-body input:focus,
+.app-body select:focus {
+	outline: none;
+	color: rgb(67, 171, 255);
+}
+.swap {
+	align-self: end;
+	margin: 5px;
+	padding: 5px 50px;
+	background: linear-gradient(45deg, #78818a, rgb(84, 109, 121));
+	font-size: 30px;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+.swap:focus {
+	outline: none;
+	background: linear-gradient(45deg, #78818a, rgb(84, 109, 121));
+}
+.rate-info {
+	margin-top: 30px;
+}
